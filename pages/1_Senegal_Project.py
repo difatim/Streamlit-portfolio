@@ -5,7 +5,7 @@ import plotly.graph_objects as go
 data = pd.read_csv("senegal_merged.csv")
 
 st.markdown ("Research Paper")
-st.title("The Relationship Between GDP and Basic Access to Water Among the Senegalese Population")
+st.title("The Relationship Between GDP per Capita and Basic Access to Water in Senegal")
 
 st.markdown (""" 
 **Fatim Diagne**
@@ -18,7 +18,7 @@ Disclaimer: According to the World Bank’s definition, basic access to water is
 
 st.header("Abstract")
 st.info( """
-This project explores the relationship between GDP per capita and basic drinking water access in Senegal (2000–2025), using World Bank data. 
+This project explores the relationship between GDP per capita and basic drinking water access in Senegal (2000–2024), using World Bank data. 
         A full econometric analysis, including control variables (urbanization, population, agricultural share of GDP) and both levels and first-difference models, is available in the complete paper. 
         The visualization presented here offers a descriptive view of the relationship: while economic growth is generally associated with improved water access, this chart alone does not control for other factors and should not be read as causal.
 """)

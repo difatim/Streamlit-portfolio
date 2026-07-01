@@ -17,7 +17,7 @@ st.title("World Population Analysis")
 st.markdown("*Exploring global population distribution, top countries, and density patterns by continent.*")
 
 # --- Population change over time ---
-st.header("Population Growth by Continent (1970–2023)")
+st.header("Population Growth by Continent (1970-2023)")
 continent_totals = data.groupby("continent")[
     ["1970 population", "1980 population", "1990 population",
      "2000 population", "2010 population", "2015 population",
