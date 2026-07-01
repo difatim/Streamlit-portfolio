@@ -68,6 +68,6 @@ My name is **Fatim Diagne**, a Master's student in Public and International Affa
 This portfolio showcases interactive Python-based visualizations to explore development and policy questions.
 """)
 
-st.markdown("[LinkedIn](https://www.linkedin.com/in/fatim-d-a98933257/?skipRedirect=true) · [Email](diagnefatim28@gmail.com)")
+st.markdown("[LinkedIn](https://www.linkedin.com/in/fatim-d-a98933257/?skipRedirect=true) · [Email](mailto:diagnefatim28@gmail.com)")
 
 
