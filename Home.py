@@ -46,7 +46,7 @@ with col1:
     st.markdown("""
     <div class="project-card">
         <h3>GDP & Water Access in Senegal</h3>
-        <p>Exploring the relationship between economic growth and basic water access in Senegal (2000–2024)</p>
+        <p>Exploring the relationship between economic growth and basic water access in Senegal (2000-2024)</p>
     </div>
     """, unsafe_allow_html=True)
     st.page_link("pages/1_Senegal_Project.py", label="View project →")
