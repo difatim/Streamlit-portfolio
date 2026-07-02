@@ -31,10 +31,11 @@ st.markdown("""
 st.title("Data Visualization Portfolio")
 
 st.write("""
-Welcome! This site showcases data visualization projects exploring economic development, 
-demographic trends, and public policy questions using public datasets from the World Bank 
-and other open sources.
+Welcome! My name is **Fatim Diagne**, a Master's student in Public and International Affairs at the University of Ottawa, 
+specializing in data analysis for Public Policy. This site showcases interactive Python-based data visualization projects exploring economic development, demographic trends, 
+and public policy questions using public datasets from the World Bank and other open sources.
 """)
+st.markdown("[LinkedIn](https://www.linkedin.com/in/fatim-d-a98933257/?skipRedirect=true) · [Email](mailto:diagnefatim28@gmail.com)")
 
 st.divider()
 st.header("Projects")
@@ -61,13 +62,8 @@ with col2:
 
 st.divider()
 
-st.subheader("About Me")
+#st.subheader("About Me")
 
-st.markdown("""
-My name is **Fatim Diagne**, a Master's student in Public and International Affairs at the University of Ottawa, specializing in data analysis for Public Policy.
-This portfolio showcases interactive Python-based visualizations to explore development and policy questions.
-""")
 
-st.markdown("[LinkedIn](https://www.linkedin.com/in/fatim-d-a98933257/?skipRedirect=true) · [Email](mailto:diagnefatim28@gmail.com)")
 
 
