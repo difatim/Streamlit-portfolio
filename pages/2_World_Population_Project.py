@@ -16,6 +16,10 @@ data = data.rename(columns={"density (km²)": "density (km2)", "area (km²)": "a
 st.title("World Population Analysis")
 st.markdown("*Exploring global population distribution, top countries, and density patterns by continent.*")
 
+st.title("Data")
+with st.expander("View underlying data"):
+    st.dataframe(data)
+    
 # --- Population change over time ---
 st.header("Population Growth by Continent (1970-2023)")
 continent_totals = data.groupby("continent")[
@@ -58,5 +62,3 @@ fig1 = px.choropleth(
 )
 st.plotly_chart(fig1, use_container_width=True)
 
-with st.expander("View underlying data"):
-    st.dataframe(data)
