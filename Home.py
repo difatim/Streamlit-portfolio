@@ -33,7 +33,7 @@ st.title("Data Visualization Portfolio")
 st.error("## This version is outdated. Visit my latest portfolio [HERE.](https://fatim-portfolio.vercel.app/)")
 
 st.write("""
-Welcome! My name is **Fatim Diagne**, a Master's student in Public and International Affairs at the University of Ottawa, 
+Welcome! My name is **Fatim Diagne**, a Master's candidate in Public and International Affairs at the University of Ottawa, 
 specializing in data analysis for Public Policy. This site showcases interactive Python-based data visualization projects exploring economic development, demographic trends, 
 and public policy questions using public datasets from the World Bank and other open sources.
 """)
